@@ -95,3 +95,12 @@ a {
 .merch {
 	color: white;
 }
+
+.cont {
+	color: white;
+	background-color: #111111;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #E1E1DF;
+	margin-top: 15px;
+}
