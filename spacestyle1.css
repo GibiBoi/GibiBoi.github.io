@@ -104,3 +104,7 @@ a {
 	border-color: #E1E1DF;
 	margin-top: 15px;
 }
+
+.hiddenlink {
+	text-decoration: none;
+}
