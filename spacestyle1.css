@@ -47,7 +47,9 @@ div.heading:hover {
 div.navig {
 	align: center;
 	background-color: #13171A;
-	height: 50px;
+	/*height: 50px;*/
+	padding-bottom: 10px;
+	padding-left: 15px;
 	border-style: solid;
 	border-color: #43474A;
 	border-radius: 15px;
@@ -56,7 +58,8 @@ div.navig {
 h2.navigtext {
 	color: #ffffff;
 	font-family: "Times New Roman";
-	display: inline
+	display: inline;
+	
 }
 
 #logostyle {
