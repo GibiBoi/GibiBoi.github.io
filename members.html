@@ -10,9 +10,23 @@
 
   <link rel="stylesheet" href="spacestyle1.css">
 
+  <script>
+  
+	var ian = "global";
+	ian = 0;
+  
+  function allian(graphic)
+  {if (ian==0) {
+	graphic.src='ian.jpg';ian=1;}
+	else {
+	graphic.src='g photo.jpg';ian=0;}
+  }
+  
+  </script>
 </head>
 
 <body>
+  
   <div class=heading>
   <h1>Space Club - Members</h1>
   </div>
@@ -30,10 +44,10 @@
   <a href=members.html><h2 class=navigtext>Members</h2></a>
   </div>
   
-  <img src='lineup.jpg' alt="Linen Up" id=smallimg>
+  <img src='g photo.jpg' alt="Line Up" id=smallimg onclick="allian(this)">
   
   <div class=cont>
-  <h2 style="text-align:center;">This is the club line up, as seen on the 19th of December, 2018</h2>
+  <h2 style="text-align:center;">This is the club line up, as seen on the 8th of February, 2019</h2>
   </div>
 
 </body>
