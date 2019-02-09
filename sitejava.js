@@ -1,5 +1,6 @@
-function getpassw()
-	{
+function getpassw(pass=0)
+{
+	if (pass) {window.location.href="kahHE87EGEg76.html";return 0;}
 	var pattempt = prompt("Enter Leader Password");
 	if (Math.log(pattempt)/Math.log(8)==5) 
 		{window.location.href="kahHE87EGEg76.html";}
