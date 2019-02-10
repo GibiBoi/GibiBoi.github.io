@@ -17,3 +17,16 @@ function allian(graphic)
 	else {
 		graphic.src='g photo.jpg';ian=0;}
 }
+function startcomp(pass=0)
+{
+	if (pass) {window.location.href="comp.html";return 0;}
+	var pattempt = prompt("Enter competition password");
+	if (pattempt.toLowerCase()=="carrot")
+	{
+		window.location.href="comp.html";
+	}
+	else
+	{
+		alert("Incorrect");
+	}
+}

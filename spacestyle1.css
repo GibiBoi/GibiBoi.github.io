@@ -125,11 +125,17 @@ ul.nav {
 }
 .nav li { 
     display:inline-block;
-    width:16%;
+    width:15%;
     margin:0;
     padding:0px;
 	padding-top:10px;
 	color: #E1E1DF;
 	font-size: 1.5em;
 	font-weight:bolder;
+}
+.btext {
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
 }
