@@ -17,6 +17,10 @@ function allian(graphic)
 	else {
 		graphic.src='g photo.jpg';ian=0;}
 }
+function welcomecomp()
+{
+	var audio = new Audio("winxp.mp3");audio.play();
+}
 function startcomp(pass=0)
 {
 	if (pass) {window.location.href="comp.html";return 0;}
@@ -29,4 +33,16 @@ function startcomp(pass=0)
 	{
 		alert("Incorrect");
 	}
+}
+function darken(elem)
+{
+	elem.style.backgroundColor='#555555';
+}
+function lighten(elem)
+{
+	elem.style.backgroundColor='#ebebeb';
+}
+function unhidecomp()
+{
+	document.getElementById("comphid").style="visibility:visible";
 }
