@@ -1,3 +1,4 @@
+var downable = 0;
 function getpassw(pass=0)
 {
 	if (pass) {window.location.href="kahHE87EGEg76.html";return 0;}
@@ -44,5 +45,9 @@ function lighten(elem)
 }
 function unhidecomp()
 {
-	document.getElementById("comphid").style="visibility:visible";
+	document.getElementById("comphid").style="visibility:visible";downable=1;
+}
+function filedown(patha)
+{
+	if (downable) {window.location.href=patha;}
 }
