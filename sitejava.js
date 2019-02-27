@@ -52,5 +52,5 @@ function unhidecomp()
 }
 function filedown(patha)
 {
-	if (downable) {window.location.href=patha;}
+	if (downable) {alert("The next area isn't finished yet. You'll be told when the next part is ready :)")} //{window.location.href=patha;}
 }
