@@ -9,19 +9,27 @@
   <meta name="author" content="Lewis Edmunds">
 
   <link rel="stylesheet" href="spacestyle1.css">
+  <script type = "text/javascript" src = "sitejava.js"></script>
 
 </head>
 
 <body>
   <div class=heading>
-  <h1>Space Cult</h1>
+  <h1 onclick="music('winxp.mp3')">Space Cult</h1>
   </div>
   
   <div class=navig>
-  <h2 style="color:#ffffff; text-align: center;">01100100 01100101 01100101 01110000 01100101 01110010 00101110 01101000 01110100 01101101 01101100</h2>
+  <ul class=nav>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="origin.html">Origin/ About</a></li>
+	<li><a href="merch.html">Merchandise</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="members.html">Members</a></li>
+	<li style="text-decoration:underline;cursor:pointer;" onclick="getpassw()">Leaders</li>
+	<li style="text-decoration:underline;cursor:pointer;" onclick="startcomp()">Competition</li>
   </div>
   
-  <img src='scl2.png' alt="Club Logo" id=logostyle>
+  <img src='scl2.png' alt="Club Logo" id=logostyle onclick="music('afric.wav')">
   <!--
   <div class=footer>
   a
