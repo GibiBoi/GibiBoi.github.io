@@ -1,10 +1,13 @@
 var downable = 0;
 function getpassw(pass=0)
 {
+	
 	if (pass) {window.location.href="kahHE87EGEg76.html";return 0;}
+	
 	var pattempt = prompt("Enter Leader Password");
 	if (Math.log(pattempt)/Math.log(8)==5) 
 		{window.location.href="kahHE87EGEg76.html";}
+	else {music('VO/SC web inc passw.wav');}
 }
 function music(song)
 {
@@ -32,7 +35,7 @@ function startcomp(pass=0)
 	}
 	else
 	{
-		alert("Incorrect");
+		music('VO/SC web inc passw.wav');
 	}
 }
 function darken(elem)
