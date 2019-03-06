@@ -5,7 +5,7 @@ function getpassw(pass=0)
 	if (pass) {window.location.href="kahHE87EGEg76.html";return 0;}
 	
 	var pattempt = prompt("Enter Leader Password");
-	if (Math.log(pattempt)/Math.log(8)==5) 
+	if (Math.log(5184)/Math.log(pattempt)==2) 
 		{window.location.href="kahHE87EGEg76.html";}
 	else {music('VO/SC web inc passw.wav');}
 }
