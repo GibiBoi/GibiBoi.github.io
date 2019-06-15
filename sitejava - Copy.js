@@ -82,3 +82,10 @@ function filedown(patha)
 {
 	if (downable) {alert("The next area isn't finished yet. You'll be told when the next part is ready :)")} //{window.location.href=patha;}
 }
+
+function stonks(image)
+{
+	music('creepymusic.mp3');
+	image.src = 'CreepyImage.jpg';
+	image.style="cursor:auto";
+}
