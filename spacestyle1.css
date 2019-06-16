@@ -70,6 +70,22 @@ h2.navigtext {
 	margin-top: 15px;
 }
 
+#logostyleB {
+	height: 50%;
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#logostyleC {
+	height: 30%;
+	width: 30%;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+
 div.footer {
 	background-color: #444444;
 	padding: 0px;
